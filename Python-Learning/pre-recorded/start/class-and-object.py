@@ -29,9 +29,15 @@ class car:
     def __init__(self,brand="Toyota",model="2025"): #default value constructor
         self.brand=brand
         self.model=model
+    
 
 
 car1= car()
 
-
 print(car1.brand,"=",car1.model)
+
+# Method inside
+
+
+
+
