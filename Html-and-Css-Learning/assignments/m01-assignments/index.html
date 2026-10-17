@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Profile</title>
+</head>
+<body>
+
+    <header>
+        <h1>My Personal Profile</h1>
+        <p>Hello! My name is Mohammad Hasan. I am a <b>Frontend Developer</b> and <i>WordPress Expert</i> passionate about creating websites.</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a> |
+        <a href="#education">Education</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I have been learning web development since <u>2021</u>. My portfolio is <mark>www.mohammadhasan.dev</mark>.</p>
+
+            <img src="https://placehold.co/200x200" alt="My Profile Image" width="200">
+
+            <h3>My Introduction Video</h3>
+            <video width="320" height="240" controls>
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+
+            <details>
+                <summary>More About Me</summary>
+                <p>I work with HTML, CSS, JavaScript, WordPress, and other web development technologies.</p>
+            </details>
+
+            <button type="button" onclick="alert('Thank you for visiting my profile!')">Click Me</button>
+        </section>
+
+        <section id="education">
+            <h2>Academic Information</h2>
+            <table border="1">
+                <tr>
+                    <th>Qualification</th>
+                    <th>Institution</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>HSC</td>
+                    <td>Not specified</td>
+                    <td>Completed</td>
+                </tr>
+                <tr>
+                    <td>DCSA</td>
+                    <td>Open University</td>
+                    <td>Completed</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Form</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br><br>
+
+                <p>Gender:</p>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label>
+                <br><br>
+
+                <p>Hobbies:</p>
+                <input type="checkbox" id="coding" name="hobbies" value="Coding">
+                <label for="coding">Coding</label>
+
+                <input type="checkbox" id="reading" name="hobbies" value="Reading">
+                <label for="reading">Reading</label>
+
+                <input type="checkbox" id="traveling" name="hobbies" value="Traveling">
+                <label for="traveling">Traveling</label>
+                <br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>My Portfolio: <a href="https://www.mohammadhasan.dev">www.mohammadhasan.dev</a></p>
+    </footer>
+
+</body>
+</html>
